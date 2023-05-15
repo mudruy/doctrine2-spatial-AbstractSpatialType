@@ -1,5 +1,5 @@
 {
-    "name": "creof/doctrine2-spatial",
+    "name": "mudruy/doctrine2-spatial-abstract-spatial-type",
     "type": "library",
     "description": "Doctrine2 multi-platform support for spatial types and functions",
     "keywords": ["orm", "dbal", "database", "postgresql", "mysql", "opengis", "postgis", "gis", "spatial", "geometry", "geography"],
