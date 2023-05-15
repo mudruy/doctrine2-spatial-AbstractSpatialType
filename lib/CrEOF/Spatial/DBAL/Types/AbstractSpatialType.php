@@ -135,7 +135,7 @@ abstract class AbstractSpatialType extends Type
             return null;
         }
 
-        if (ctype_alpha($value[0])) {
+        if (is_string($value) && ctype_alpha($value) || is_array($value) && count($value) > 0 && ctype_alpha($value[0])) {
             return $this->getSpatialPlatform($platform)->convertStringToPHPValue($this, $value);
         }
 
